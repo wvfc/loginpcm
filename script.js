@@ -58,7 +58,7 @@ function login(username, password) {
         const passwordHash = await hashPassword(password);
         if (result.password === passwordHash) {
             alert('Login bem-sucedido!');
-            window.location.href = 'https://plataformapcm.netlify.app/';
+            window.location.href = 'https://plataformapcm.netlify.app';
         } else {
             alert('Senha incorreta!');
         }
